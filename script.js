@@ -2,7 +2,7 @@
 var mensajeElemento = document.getElementById("mensaje");
 
 // Cambia el contenido del elemento
-mensajeElemento.innerHTML = "Do u wanna be my Valentine? <3";
+mensajeElemento.innerHTML = "Will you be my Valentine? <3";
 
 function responder(respuesta) {
 
