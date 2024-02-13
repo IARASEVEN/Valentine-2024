@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gabriela</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #ffd3dc;
+        }
+
+        #contenedorImagen {
+            text-align: center;
+            margin-top: 20px; /* Agrega margen superior para separar de los botones */
+        }
+
+        #miImagen {
+            width: 35%; /* Ajusta el tamaño de la imagen */
+            max-width: 100%; /* Garantiza que la imagen no sea más grande que su tamaño original */
+            height: auto; /* Mantiene la proporción original de la imagen */
+        }
+    </style>
+</head>
+<body>
+    <div id="mensaje"></div>
+    
+    <div>
+        <button id="btnSi" onclick="responder('Sí')">Sí</button>
+        <button id="btnNo" onclick="responder('No')">No</button>
+    </div>
+
+    <div id="contenedorImagen" style="display: none;">
+        <!-- Añade el atributo width para ajustar el tamaño de la imagen -->
+        <img id="miImagen" src="WhatsApp Image 2024-02-13 at 12.57.38 AM.jpeg" alt="Novio y novia">
+    </div>
+    <!-- Div para mostrar el mensaje condicional -->
+    <div id="mensaje2"></div>
+
+    <!-- Agrega la etiqueta de audio -->
+    <audio controls autoplay>
+        <source src="Natasha Bedingfield - Unwritten ((Official Video) (as featured in Anyone But You)).mp3" type="audio/mp3">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>

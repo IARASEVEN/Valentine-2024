@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffd3dc; /* Este es un tono de rosa pastel en hexadecimal */
+}
+
+#mensaje {
+    font-size: 4em;
+    color: #d50000;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic; /* Aplica la letra cursiva */
+}
+
+
+#mensaje2 {
+    font-size: 2em;
+    color: #d50000;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#btnSi, #btnNo {
+    margin-top: 30px;
+    font-size: 1.5em; /* Ajusta el tamaño del texto dentro de los botones */
+    padding: 10px 20px;
+    background-color: #d50000; /* Ajusta el área de clic de los botones */
+}
+
+audio {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 25%;
+    background-color: #ffd3dc; /* Ajusta el color de fondo del reproductor de audio */
+}
