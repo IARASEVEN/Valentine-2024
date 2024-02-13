@@ -10,7 +10,7 @@ function responder(respuesta) {
     // Agregar lógica condicional para mostrar el mensaje2 si la respuesta es 'No'
     if (respuesta === 'No') {
         document.getElementById("mensaje2").innerHTML = "No puedes...";
-        document.getElementById("mensaje").innerHTML = "Do u wanna be my Valentine? <3";
+        document.getElementById("mensaje").innerHTML = "Will you be my Valentine? <3";
             // Obtén el botón "No"
 
         var botonNo = document.getElementById("btnNo");
